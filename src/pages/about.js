@@ -10,7 +10,7 @@ import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import sumitdasCV from "../files/sumit-das-resume.pdf";
 
 // Context
 import { State } from "../components/Layout";
@@ -176,15 +176,14 @@ const About = () => {
           <div className="bio column">
             <h3 className="about-title mb-2 font-bold text-[18px]">Bio</h3>
             <p className="paragraph">
-              A decade of experience as a Software Engineer (Front-end focused),
-              working on large-scale and high-impact projects for digital
-              companies, where I've crafted digital acquisition experiences,
-              dashboards, awwwards-like websites, saas platforms, design systems, animations
-              libraries, mobile apps and email marketing tools.
+              MBA Candidate with 4+ years of experience in operations, MIS reporting, web design, and data analytics.
+              I've delivered 25–40 responsive web projects with 20–35% higher user engagement; optimized financial reporting efficiency by 20%
+              and created 10+ interactive dashboards at Indian Oil Corporation. Specializing in Supply Chain & Operations, Digital Marketing,
+              Advanced Data Analytics, and Financial Analysis.
             </p>
             <p className="paragraph">
-              I'm really focused about resolve real problems through technology,
-              specifically web development and creative development.
+              Co-founded two tech ventures: MMStorage (cloud storage platform) and Technologiya (technology services).
+              Passionate about solving real-world problems through data-driven insights, strategic thinking, and innovative digital solutions.
             </p>
             <ul className="control">
               <li>
@@ -194,7 +193,7 @@ const About = () => {
                 </button>
               </li>
               <li>
-                <a className="button -icon" href={cesarolvrCV} download={true}>
+                <a className="button -icon" href={sumitdasCV} download={true}>
                   <FiDownload />
                   <p>Download CV</p>
                 </a>
@@ -249,4 +248,4 @@ const About = () => {
 
 export default About;
 
-export const Head = () => <title>Me | cesarolvr</title>;
+export const Head = () => <title>Sumit Das | About</title>;
