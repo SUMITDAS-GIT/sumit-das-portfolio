@@ -1,4 +1,5 @@
 {
   "buildCommand": "yarn build",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "nodeVersion": "18.x"
 }

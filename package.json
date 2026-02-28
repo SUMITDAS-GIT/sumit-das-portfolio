@@ -6,6 +6,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "gatsby develop",
     "start": "gatsby develop",
