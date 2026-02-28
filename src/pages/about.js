@@ -11,6 +11,7 @@ import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 
 // Files
 import sumitdasCV from "../files/sumit-das-resume.pdf";
+import sumitdasPhoto from "../files/sumit-das-photo.jpg";
 
 // Context
 import { State } from "../components/Layout";
@@ -166,8 +167,8 @@ const About = () => {
 
             <a
               className="button -download -icon"
-              href={headshot}
-              download={true}
+              href={sumitdasPhoto}
+              download="Sumit-Das-Professional-Photo.jpg"
             >
               <FiDownload />
               <p>Download photo</p>
