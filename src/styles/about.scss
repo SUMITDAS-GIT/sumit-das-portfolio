@@ -89,17 +89,19 @@
     }
 
     img {
-      width: 110%;
-      height: 250px;
+      width: 90%;
+      height: 280px;
       object-fit: cover;
       right: 0;
       max-width: none;
       margin-bottom: 20px;
       filter: grayscale(100%);
+      border-radius: 8px;
 
       @media (min-width: 730px) {
         width: 500px;
         height: 500px;
+        border-radius: 0;
       }
     }
   }
