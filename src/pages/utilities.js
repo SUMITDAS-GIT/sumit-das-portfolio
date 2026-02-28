@@ -8,7 +8,7 @@ import Loader from "../components/Loader";
 import Cursor from "../components/Cursor";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import sumitdasCV from "../files/sumit-das-resume.pdf";
 
 // Styles
 import "../styles/global.scss";
@@ -36,7 +36,7 @@ const Actions = () => {
               <li>
                 <a
                   className="hover:text-[var(--tw-text-gray-primary)]"
-                  href={cesarolvrCV}
+                  href={sumitdasCV}
                   download={true}
                   target="_blank"
                 >
@@ -50,7 +50,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/cesarolvr/"
+                  href="https://www.linkedin.com/in/sumit-das-08dec2000/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -76,7 +76,7 @@ const Actions = () => {
                   />
                   <span className="inline-block ml-5">
                     <ScrambleText
-                      text="invite to -> contact@cesarolvr.com"
+                      text="invite to -> linkme.das@gmail.com"
                       className="scramble-text"
                       duration={1.4}
                       placeholder="__"
@@ -86,7 +86,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/cesarolvr/"
+                  href="https://github.com/SUMITDAS-GIT/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -100,12 +100,12 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://codepen.io/cesarolvr/"
+                  href="https://www.instagram.com/id__re_born?igsh=bnM0OHVkN2JjN2dn"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
                   <ScrambleText
-                    text="Star my Codepen"
+                    text="Follow on Instagram"
                     className="scramble-text"
                     duration={1.8}
                     placeholder=".:"
@@ -114,12 +114,11 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://leetcode.com/u/cesarolvr/"
-                  target="_blank"
+                  href="tel:+918812910655"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
                   <ScrambleText
-                    text="Check my Leetcode"
+                    text="Call me"
                     className="scramble-text"
                     duration={2}
                     placeholder=".:"
@@ -129,7 +128,7 @@ const Actions = () => {
               <li>
                 {" "}
                 <a
-                  href="mailto:contact@cesarolvr.com"
+                  href="mailto:linkme.das@gmail.com"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
                   <ScrambleText
@@ -142,65 +141,21 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/cesarolvr/"
-                  target="_blank"
-                  className="hover:text-[var(--tw-text-gray-primary)]"
-                >
-                  <ScrambleText
-                    text="Follow me on Instagram"
-                    className="scramble-text inline-block"
-                    duration={2.4}
-                    placeholder=".:"
-                  />
-                  <span className="inline-block ml-5">
-                    <ScrambleText
-                      text="(only friends)"
-                      className="scramble-text"
-                      duration={2.4}
-                      placeholder="__"
-                    />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://goodreads.com/cesarolvr"
-                  target="_blank"
-                  className="hover:text-[var(--tw-text-gray-primary)]"
-                >
-                  <ScrambleText
-                    text="My current readings"
-                    className="scramble-text inline-block"
-                    duration={2.6}
-                    placeholder=".:"
-                  />
-                  <span className="inline-block ml-5">
-                    <ScrambleText
-                      text="(only curious)"
-                      className="scramble-text"
-                      duration={1}
-                      placeholder="__"
-                    />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/cesarolvr/cesarolvr-www"
+                  href="https://github.com/SUMITDAS-GIT/portfolio"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
                   <ScrambleText
                     text="View source code of this website"
                     className="scramble-text inline-block"
-                    duration={1}
+                    duration={2.4}
                     placeholder=".:"
                   />
                   <span className="inline-block ml-5">
                     <ScrambleText
                       text="(only devs)"
                       className="scramble-text"
-                        duration={2.8}
+                        duration={2.6}
                       placeholder="__"
                     />
                   </span>
@@ -221,4 +176,4 @@ const Actions = () => {
 
 export default Actions;
 
-export const Head = () => <title>Utilities | cesarolvr</title>;
+export const Head = () => <title>Utilities | sumitdas</title>;

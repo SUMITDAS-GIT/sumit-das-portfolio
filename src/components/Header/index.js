@@ -22,22 +22,29 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
               className="scramble-text"
               delay={1.5}
             />{" "}
-            <strong className="underline">
-              <small className="sm:text-[18px] text-[14px]">
-                {!isMobile ? (
-                  <ScrambleText
-                    text={`Guwahati, Assam, India`}
-                    className="scramble-text"
-                    duration={3}
-                  />
-                ) : (
-                  <ScrambleText
-                    text={`Guwahati, India`}
-                    className="scramble-text"
-                    duration={3}
-                  />
-                )}
-              </small>
+            <strong className="underline cursor-pointer">
+              <a
+                href="https://www.google.com/maps/search/Guwahati,+India"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-70 transition-opacity"
+              >
+                <small className="sm:text-[18px] text-[14px]">
+                  {!isMobile ? (
+                    <ScrambleText
+                      text={`Guwahati, Assam, India`}
+                      className="scramble-text"
+                      duration={3}
+                    />
+                  ) : (
+                    <ScrambleText
+                      text={`Guwahati, India`}
+                      className="scramble-text"
+                      duration={3}
+                    />
+                  )}
+                </small>
+              </a>
             </strong>
           </p>
           <br />
