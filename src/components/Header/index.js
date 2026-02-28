@@ -146,7 +146,10 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         </li>
 
         <li>
-          <a href="https://github.com/SUMITDAS-GIT/" target="_blank">
+          <Link
+            to="/experiments/"
+            className={pathname?.startsWith("/experiments") ? `-active` : ``}
+          >
             {!disableScramble ? (
               <ScrambleText
                 text="Experiments"
@@ -156,7 +159,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
             ) : (
               <>Experiments</>
             )}
-          </a>
+          </Link>
         </li>
         <li>
           <Link
