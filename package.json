@@ -7,7 +7,7 @@
     "gatsby"
   ],
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "gatsby develop",
