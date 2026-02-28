@@ -1,13 +1,10 @@
-name: 📦 Build
-run-name: 📦 Build triggered
+name: 📦 Build & Deploy
+run-name: 📦 Build & Deploy triggered
 on: push
 jobs:
   build:
-    name: cesarolvr.com build
+    name: Build and Deploy to Vercel
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-      contents: read
     steps:
       - uses: actions/checkout@master
 
@@ -22,19 +19,10 @@ jobs:
       - name: building app
         run: yarn build
 
-      - name: uploading to S3
-        run: |
-          aws s3 sync ./public s3://cesarolvr
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ID }}
-          AWS_DEFAULT_REGION: us-east-1
-
-      - name: Invalidate cloudfront
-        uses: chetan/invalidate-cloudfront-action@v2
-        env:
-          DISTRIBUTION: EK8MEW24SE878
-          PATHS: "/*"
-          AWS_REGION: "us-east-1"
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ID }}
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
