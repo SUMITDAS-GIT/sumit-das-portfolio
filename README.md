@@ -37,8 +37,8 @@ A modern, responsive personal website built with Gatsby.js, featuring a sleek de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cesarolvr/cesarolvr-www.git
-   cd cesarolvr-www
+   git clone https://github.com/SUMITDAS-GIT/sumit-das-portfolio.git
+   cd sumit-das-portfolio
    ```
 
 2. Install dependencies:
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-Cesarolvr
+Sumit Das
