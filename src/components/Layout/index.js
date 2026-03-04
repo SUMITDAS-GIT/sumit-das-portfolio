@@ -6,6 +6,7 @@ import "./index.scss";
 // Components
 import Copied from "../Copied";
 import Modal from "../Modal";
+import { Analytics } from "@vercel/analytics/react";
 
 import { toggleTheme, getTheme, setupTheme } from "../../utils/theme";
 
@@ -52,6 +53,7 @@ const Layout = ({ children }) => {
             setCopied={setCopied}
           />
           {copied && <Copied />}
+          <Analytics />
         </>
       </div>
     </State.Provider>
