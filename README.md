@@ -1,6 +1,6 @@
 ## My personal website
 
-A modern, responsive personal website built with Gatsby.js, featuring a sleek design and interactive elements.
+This Website is built with passion.
 
   <img src="home.png" alt="Home Page Preview" width="400"/>
 
