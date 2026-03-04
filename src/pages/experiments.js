@@ -28,6 +28,16 @@ const experimentsData = [
     description: "Your Way to Success",
     url: "https://youway.lovable.app",
   },
+  {
+    title: "Folk & Fam",
+    description: "Community Platform",
+    url: "https://folkandfam.vercel.app/",
+  },
+  {
+    title: "Secure Vault",
+    description: "Multi-Site Backend",
+    url: "https://securevault-multi-site-backend.vercel.app/",
+  },
 ];
 
 const Experiments = () => {
