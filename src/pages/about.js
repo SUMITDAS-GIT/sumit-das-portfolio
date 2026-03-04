@@ -23,7 +23,7 @@ import {
   academyPath,
   openSourcePath,
   volunteeringPath,
-  hackingPath,
+  ProjectsPath,
 } from "../data";
 
 // Images
@@ -109,7 +109,7 @@ const panelMap = (index) => {
     ),
     4: (
       <ol className="career-path -academic">
-        {hackingPath.map(({ role, details, description, link }, index) => {
+        {ProjectsPath.map(({ role, details, description, link }, index) => {
           return (
             <li key={index} className="about-career-experience">
               <h4 className="role">{role}</h4>
@@ -219,7 +219,7 @@ const About = () => {
                   isBlocked: false,
                 },
                 {
-                  title: "Hacking",
+                  title: "Projects",
                   isBlocked: false,
                 },
               ].map(({ title, isBlocked }, index) => {
