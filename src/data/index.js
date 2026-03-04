@@ -95,7 +95,7 @@ const volunteeringPath = [
     description: `- Obtained certification in financial investments and stock market analysis`,
   },
 ];
-const hackingPath = [
+const ProjectsPath = [
   {
     role: "Technologiya",
     details: `Technology Service Brand | Feb 2026 -> Present`,
@@ -169,5 +169,5 @@ export {
   quickActionList,
   openSourcePath,
   volunteeringPath,
-  hackingPath,
+  ProjectsPath,
 };
