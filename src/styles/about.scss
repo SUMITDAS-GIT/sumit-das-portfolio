@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 
   main {
     display: flex;

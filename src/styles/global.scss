@@ -69,6 +69,8 @@ body {
   padding: 0;
   font-size: 14px;
   font-weight: lighter;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 #___gatsby,
