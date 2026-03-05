@@ -16,7 +16,7 @@ const experimentsData = [
   {
     title: "MMStorage",
     description: "Cloud Storage Platform",
-    url: "https://mmstorage.lovable.app",
+    url: "https://mmstorage.vercel.app",
   },
   {
     title: "Buy Me A Cup Of Tea",
@@ -30,7 +30,7 @@ const experimentsData = [
   },
   {
     title: "Folk & Fam",
-    description: "Community Platform",
+    description: "Cultural Platform",
     url: "https://folkandfam.vercel.app/",
   },
   {

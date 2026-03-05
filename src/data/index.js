@@ -106,7 +106,7 @@ const ProjectsPath = [
     role: "MMStorage",
     details: `Cloud Storage Platform | Feb 2026 -> Present`,
     description: `-> Co-founded cloud storage platform offering free 10 GB tier with intuitive digital interface and seamless UX`,
-    link: `https://mmstorage.com/`,
+    link: `https://mmstorage.vercel.app/`,
   },
   {
     role: "Personal AI Assistant – Jarvis",
