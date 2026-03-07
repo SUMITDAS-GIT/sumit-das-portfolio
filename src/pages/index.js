@@ -178,7 +178,7 @@ export const Head = () => (
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*; style-src 'self' 'unsafe-inline' https://*; img-src 'self' data: https://*; font-src 'self' https://*;" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="format-detection" content="telephone=no,email=no,address=no,date=no,url=no" />
-    <meta name="google-site-verification" content="your-google-verification-code-here" />
+    <meta name="google-site-verification" content="-UI2hElwcmQV0ZW4h6EBq_RSkP-oZ1ATuIlaUMw9trg" />
 
     {/* Additional Performance Meta Tags */}
     <meta http-equiv="x-dns-prefetch-control" content="on" />
