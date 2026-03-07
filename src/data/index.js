@@ -100,7 +100,7 @@ const ProjectsPath = [
     role: "Technologiya",
     details: `Technology Service Brand | Feb 2026 -> Present`,
     description: `-> Modern technology service platform delivering device, computer, and digital solutions with custom pricing models`,
-    link: `https://technologiya.com/`,
+    link: `https://technologiya-yourguidence.vercel.app/`,
   },
   {
     role: "MMStorage",
