@@ -281,6 +281,16 @@ export const Head = () => (
     <meta name="theme-color" content="#222222" />
     <meta name="msapplication-TileColor" content="#222222" />
 
+    {/* Security & Performance Meta Tags from HEAD repository */}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*; style-src 'self' 'unsafe-inline' https://*; img-src 'self' data: https://*; font-src 'self' https://*;" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no,email=no,address=no,date=no,url=no" />
+    <meta name="google-site-verification" content="your-google-verification-code-here" />
+
+    {/* Additional Performance Meta Tags */}
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <meta name="application-name" content="Sumit Das Portfolio" />
+
     {/* Structured Data - About Page */}
     <script type="application/ld+json">
       {JSON.stringify({
