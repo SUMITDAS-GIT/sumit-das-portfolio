@@ -1,4 +1,5 @@
 import * as React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // Styles
 import "./index.scss";
@@ -53,6 +54,7 @@ const Layout = ({ children }) => {
             setCopied={setCopied}
           />
           {copied && <Copied />}
+          <SpeedInsights />
           <Analytics />
         </>
       </div>
