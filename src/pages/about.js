@@ -43,7 +43,7 @@ const panelMap = (index) => {
           Check out my{" "}
           <a
             className="underline text-[var(--tw-text-gray-primary)] font-bold"
-            href="https://www.linkedin.com/in/cesarolvr/#experience"
+            href="https://www.linkedin.com/in/sumit-das-08dec2000/"
           >
             LinkedIn experience section
           </a>{" "}
