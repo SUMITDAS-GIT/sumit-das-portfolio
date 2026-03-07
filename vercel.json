@@ -4,11 +4,6 @@
   "framework": "gatsby",
   "installCommand": "yarn install",
   "regions": ["iad1"],
-  "functions": {
-    "src/pages/**/*.js": {
-      "maxDuration": 10
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
