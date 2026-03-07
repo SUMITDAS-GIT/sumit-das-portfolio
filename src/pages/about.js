@@ -249,4 +249,53 @@ const About = () => {
 
 export default About;
 
-export const Head = () => <title>Sumit Das | About</title>;
+export const Head = () => (
+  <>
+    <title>Sumit Das | About | MBA Candidate & Full-Stack Developer Experience</title>
+    <meta name="description" content="Learn about Sumit Das - MBA Candidate with 4+ years experience in operations, MIS reporting, web design, and data analytics. Co-founder of MMStorage and Technologiya." />
+    <meta name="keywords" content="Sumit Das, About, MBA Candidate, Full-Stack Developer, Experience, Career, Education, Skills, MMStorage, Technologiya" />
+    <meta name="author" content="Sumit Das" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sumitdas.com/about" />
+
+    {/* Open Graph / Facebook */}
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://sumitdas.com/about" />
+    <meta property="og:title" content="Sumit Das | About | MBA Candidate & Full-Stack Developer" />
+    <meta property="og:description" content="Learn about Sumit Das - MBA Candidate with experience in operations, MIS reporting, web design, and data analytics." />
+    <meta property="og:image" content="https://sumitdas.com/home.png" />
+    <meta property="og:image:alt" content="Sumit Das - Professional About Page" />
+    <meta property="og:site_name" content="Sumit Das Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://sumitdas.com/about" />
+    <meta name="twitter:title" content="Sumit Das | About | MBA Candidate & Full-Stack Developer" />
+    <meta name="twitter:description" content="Learn about Sumit Das - MBA Candidate with experience in operations, MIS reporting, web design, and data analytics." />
+    <meta name="twitter:image" content="https://sumitdas.com/home.png" />
+    <meta name="twitter:image:alt" content="Sumit Das - Professional About Page" />
+    <meta name="twitter:creator" content="@sumitdas08dec" />
+
+    {/* Additional SEO Meta Tags */}
+    <meta name="theme-color" content="#222222" />
+    <meta name="msapplication-TileColor" content="#222222" />
+
+    {/* Structured Data - About Page */}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Sumit Das",
+        "description": "Learn about Sumit Das - MBA Candidate and Full-Stack Developer with experience in operations, MIS reporting, web design, and data analytics.",
+        "url": "https://sumitdas.com/about",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Sumit Das",
+          "jobTitle": "MBA Candidate & Full-Stack Developer",
+          "description": "MBA Candidate with 4+ years of experience in operations, MIS reporting, web design, and data analytics."
+        }
+      })}
+    </script>
+  </>
+);

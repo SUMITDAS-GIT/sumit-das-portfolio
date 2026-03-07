@@ -139,4 +139,130 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Sumit Das | MBA Candidate & Full-Stack Developer</title>;
+export const Head = () => (
+  <>
+    <title>Sumit Das | MBA Candidate & Full-Stack Developer | Data-Driven Digital Solutions</title>
+    <meta name="description" content="Sumit Das - MBA Candidate and Full-Stack Developer specializing in operations, MIS reporting, web design, and data analytics. Co-founder of MMStorage and Technologiya." />
+    <meta name="keywords" content="Sumit Das, MBA Candidate, Full-Stack Developer, Data Analytics, Web Design, Operations, MIS Reporting, MMStorage, Technologiya, Indian Oil Corporation" />
+    <meta name="author" content="Sumit Das" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://sumitdas.com" />
+
+    {/* Open Graph / Facebook */}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sumitdas.com" />
+    <meta property="og:title" content="Sumit Das | MBA Candidate & Full-Stack Developer" />
+    <meta property="og:description" content="MBA Candidate and Full-Stack Developer crafting data-driven digital solutions. Co-founder of MMStorage and Technologiya." />
+    <meta property="og:image" content="https://sumitdas.com/home.png" />
+    <meta property="og:image:alt" content="Sumit Das - Professional Portfolio" />
+    <meta property="og:site_name" content="Sumit Das Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://sumitdas.com" />
+    <meta name="twitter:title" content="Sumit Das | MBA Candidate & Full-Stack Developer" />
+    <meta name="twitter:description" content="MBA Candidate and Full-Stack Developer crafting data-driven digital solutions. Co-founder of MMStorage and Technologiya." />
+    <meta name="twitter:image" content="https://sumitdas.com/home.png" />
+    <meta name="twitter:image:alt" content="Sumit Das - Professional Portfolio" />
+    <meta name="twitter:creator" content="@sumitdas08dec" />
+
+    {/* Additional SEO Meta Tags */}
+    <meta name="theme-color" content="#222222" />
+    <meta name="msapplication-TileColor" content="#222222" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {/* Structured Data - Person Schema */}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sumit Das",
+        "jobTitle": "MBA Candidate & Full-Stack Developer",
+        "description": "MBA Candidate with experience in operations, MIS reporting, web design, and data analytics. Co-founder of MMStorage and Technologiya.",
+        "url": "https://sumitdas.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/sumit-das-08dec2000/",
+          "https://github.com/SUMITDAS-GIT"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Guwahati",
+          "addressRegion": "Assam",
+          "addressCountry": "India"
+        },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "MBA Program (Pursuing)"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Gauhati University"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "Organization",
+            "name": "MMStorage",
+            "url": "https://mmstorage.vercel.app"
+          },
+          {
+            "@type": "Organization",
+            "name": "Technologiya",
+            "url": "https://technologiya.com"
+          },
+          {
+            "@type": "Organization",
+            "name": "Indian Oil Corporation Limited"
+          }
+        ],
+        "knowsAbout": [
+          "Data Analytics",
+          "Web Design",
+          "Operations Management",
+          "MIS Reporting",
+          "Full-Stack Development",
+          "Supply Chain Management",
+          "Digital Marketing",
+          "Financial Analysis"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Full-Stack Developer",
+          "occupationLocation": {
+            "@type": "City",
+            "name": "Guwahati",
+            "addressCountry": "India"
+          }
+        }
+      })}
+    </script>
+
+    {/* Structured Data - Website Schema */}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Sumit Das Portfolio",
+        "url": "https://sumitdas.com",
+        "description": "Personal portfolio of Sumit Das - MBA Candidate and Full-Stack Developer",
+        "author": {
+          "@type": "Person",
+          "name": "Sumit Das"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Sumit Das"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://sumitdas.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      })}
+    </script>
+  </>
+);

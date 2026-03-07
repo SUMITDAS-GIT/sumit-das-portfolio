@@ -98,4 +98,72 @@ const Experiments = () => {
 
 export default Experiments;
 
-export const Head = () => <title>Experiments | sumitdas</title>;
+export const Head = () => (
+  <>
+    <title>Sumit Das | Projects & Experiments | MMStorage, Folk & Fam, Secure Vault</title>
+    <meta name="description" content="Explore Sumit Das's projects and experiments including MMStorage (Cloud Storage Platform), Folk & Fam (Cultural Platform), and Secure Vault (Multi-Site Backend)." />
+    <meta name="keywords" content="Sumit Das, Projects, Experiments, MMStorage, Folk & Fam, Secure Vault, Cloud Storage, Cultural Platform, Multi-Site Backend" />
+    <meta name="author" content="Sumit Das" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sumitdas.com/experiments" />
+
+    {/* Open Graph / Facebook */}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sumitdas.com/experiments" />
+    <meta property="og:title" content="Sumit Das | Projects & Experiments" />
+    <meta property="og:description" content="Explore innovative projects by Sumit Das including cloud storage platforms and cultural applications." />
+    <meta property="og:image" content="https://sumitdas.com/home.png" />
+    <meta property="og:image:alt" content="Sumit Das - Projects and Experiments" />
+    <meta property="og:site_name" content="Sumit Das Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://sumitdas.com/experiments" />
+    <meta name="twitter:title" content="Sumit Das | Projects & Experiments" />
+    <meta name="twitter:description" content="Explore innovative projects by Sumit Das including cloud storage platforms and cultural applications." />
+    <meta name="twitter:image" content="https://sumitdas.com/home.png" />
+    <meta name="twitter:image:alt" content="Sumit Das - Projects and Experiments" />
+    <meta name="twitter:creator" content="@sumitdas08dec" />
+
+    {/* Additional SEO Meta Tags */}
+    <meta name="theme-color" content="#222222" />
+    <meta name="msapplication-TileColor" content="#222222" />
+
+    {/* Structured Data - Collection Page */}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Sumit Das Projects & Experiments",
+        "description": "A collection of innovative projects and experiments by Sumit Das including web applications and digital solutions.",
+        "url": "https://sumitdas.com/experiments",
+        "mainEntity": {
+          "@type": "ItemList",
+          "name": "Projects",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "SoftwareApplication",
+              "name": "MMStorage",
+              "description": "Cloud Storage Platform offering free 10 GB tier",
+              "url": "https://mmstorage.vercel.app"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "name": "Folk & Fam",
+              "description": "Cultural Platform for community engagement",
+              "url": "https://folkandfam.vercel.app/"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "name": "Secure Vault",
+              "description": "Multi-Site Backend solution",
+              "url": "https://securevault-multi-site-backend.vercel.app/"
+            }
+          ]
+        }
+      })}
+    </script>
+  </>
+);
