@@ -22,7 +22,13 @@ module.exports = {
     },
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    "gatsby-plugin-advanced-sitemap",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`,
+        entryLimit: 10000,
+      },
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
