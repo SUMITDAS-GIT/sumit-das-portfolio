@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/`,
-        entryLimit: 10000,
+        output: `/sitemap.xml`,
+        createLinkInHead: true,
       },
     },
     "gatsby-plugin-sharp",
